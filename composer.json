@@ -1,0 +1,27 @@
+{
+  "name": "mula/leaflet6",
+  "description": "Leaflet plugin for SW6 with animate.css support",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mula",
+      "role": "Manufacturer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Leaflet\\": "src/"
+    }
+  },
+  "require": {
+    "shopware/core": "6.4.*"
+  },
+  "extra": {
+    "shopware-plugin-class": "Leaflet\\Leaflet",
+    "label": {
+      "de-DE": "Leaflet plugin",
+      "en-GB": "Leaflet plugin"
+    }
+  }
+}

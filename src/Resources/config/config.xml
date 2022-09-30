@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Leaflet Settings</title>
+        <title lang="de-DE">Leaflet Einstellungen</title>
+
+        <input-field type="bool">
+            <name>leaflet</name>
+            <label>Enable Leaflet package</label>
+            <label lang="de-DE">Aktiviere Leaflet Paket</label>
+            <defaultValue>true</defaultValue>
+            <helpText>Activates Leaflet package for opensource map functionality. see https://leafletjs.com/ for details.</helpText>
+            <helpText lang="de-DE">Aktiviert die Leaflet Bibliothek für Opensource Map Funktionen. Siehe https://leafletjs.com/ für Details.</helpText>
+        </input-field>
+    </card>
+    <card>
+        <title>Animate.css Settings</title>
+        <title lang="de-DE">Animate.css Einstellungen</title>
+        <input-field type="bool">
+            <name>animate</name>
+            <label>Enable Animate.css</label>
+            <label lang="de-DE">Aktiviere Animate.css</label>
+            <defaultValue>true</defaultValue>
+            <helpText>Activates animate.css library for some nice CSS animations. see https://animate.style/ for details.</helpText>
+            <helpText lang="de-DE">Aktiviert die animate.css Bibliothek für schöne CSS Animationen. Siehe https://animate.style/ für Details.</helpText>
+        </input-field>
+
+    </card>
+</config>

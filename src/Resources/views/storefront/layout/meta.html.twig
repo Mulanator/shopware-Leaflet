@@ -1,0 +1,14 @@
+{% sw_extends '@Storefront/storefront/layout/meta.html.twig' %}
+
+{% block layout_head_meta_tags %}
+    {{ parent() }}
+    {% if config('Leaflet.config.animate') %}
+        <link rel="stylesheet" href="{{ asset('bundles/leaflet/storefront/css/animate.css') }}">
+    {% endif %}
+
+    {% if config('Leaflet.config.leaflet') %}
+        <link rel="stylesheet" href="{{ asset('bundles/leaflet/storefront/css/leaflet.css') }}">
+        <script src="{{ asset('bundles/leaflet/storefront/js/leaflet.js') }}"></script>
+    {% endif %}
+
+{% endblock %}
