@@ -8,7 +8,7 @@
 
     {% if config('Leaflet.config.leaflet') %}
         <link rel="stylesheet" href="{{ asset('bundles/leaflet/storefront/css/leaflet.css') }}">
-        <script src="{{ asset('bundles/leaflet/storefront/js/leaflet.js') }}"></script>
+        <script src="{{ asset('bundles/leaflet/storefront/js/leaflet.js') }}" async></script>
     {% endif %}
 
 {% endblock %}
